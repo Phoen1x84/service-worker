@@ -1,0 +1,27 @@
+{
+  "name": "service-worker",
+  "version": "1.0.0",
+  "description": "service worker for progressive web app (WPA)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phoen1x84/service-worker.git"
+  },
+  "keywords": [
+    "service",
+    "worker",
+    "progressive",
+    "web",
+    "app",
+    "WPA"
+  ],
+  "author": "Matthew Neil - @Pho3n1x84",
+  "license": "(MIT)",
+  "bugs": {
+    "url": "https://github.com/Phoen1x84/service-worker/issues"
+  },
+  "homepage": "https://github.com/Phoen1x84/service-worker#readme"
+}
