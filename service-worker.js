@@ -109,10 +109,12 @@ self.addEventListener('fetch', (e) => {
 // the downside to this is a network request are made all the time
 // when offline the request will fail
 // e.respondWith(() => {
+    // create an array the first promise goes to the cache
+    // the second goes to the network
 //     var promises = [
 //         caches.match(e.request),
 //         fetch(e.request)
-//     ];
+//     ]; 
 //     return new Promise((resolve, reject) => { // promise.race doesn't work well here...
 //         promises.map(p => promise.resolve(promise));
 //         promises.forEach(p => p.then(resolve));
